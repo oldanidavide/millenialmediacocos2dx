@@ -130,7 +130,7 @@ For the second value (`MIDDLE`) is available `BOTTOM`, `MIDDLE`, `TOP`
 If you want hide the adv inside your game just import the `OCCMillennialMedia.h`.
 
 Open your main class header file<br/> 
-Example: Classes/MillenialMediaTutorial.h<br>
+Example: Classes/HelloWorldScene.h<br>
 
 and include the MillenialMedia file: 
 
