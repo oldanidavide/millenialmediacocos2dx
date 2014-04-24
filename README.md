@@ -163,7 +163,7 @@ Now inside the onCreate method under "super.onCreate(savedInstanceState)" add
 	advMedia = new OCCMillennialMedia(this);
 
 Open your main class header file 
-Example: Classes/MillenialMediaTutorial.h
+Example: Classes/HelloWorldScene.h
 
 and include the MillenialMedia file:
 
