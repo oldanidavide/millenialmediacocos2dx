@@ -50,7 +50,7 @@ protected static final int TYPE_INTERSTITIAL_BANNER         = 4;
 		super.onCreate(savedInstanceState);
 
 		advMedia = new OCCMillennialMedia(this);
-		advMedia.init("157204",TYPE_SMALL_BANNER);     
+		advMedia.init("YOUR-MILLENIAL-MEDIA-APP-ID",TYPE_SMALL_BANNER);     
 		advMedia.setAlignment(CENTER,BOTTOM);		
 	}
 	
