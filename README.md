@@ -138,7 +138,7 @@ and include the MillenialMedia file:
 
 now you need only write in your game code
 
-`OCCMillennialMedia::OCCMillennialMedia_setVisible(YOUR-MILLENIAL-MEDIA-ADV,false);`
+`OCCMillennialMedia::OCCMillennialMedia_setAdvVisible(false);`
 
 where you want hide (or show) the adv.
 
