@@ -223,18 +223,6 @@ public class OCCMillennialMedia {
 				break;	
 		}
 
-
-        if(canFit(LEADERBOARD_WIDTH))
-        {
-            _width = LEADERBOARD_WIDTH;
-            _height = LEADERBOARD_HEIGHT;
-        }
-        else if(canFit(MED_BANNER_WIDTH))
-        {
-            _width = MED_BANNER_WIDTH;
-            _height = MED_BANNER_HEIGHT;
-        }
-
 		//Set the adView Size
 		adView.setWidth(_width);
 		adView.setHeight(_height);
@@ -288,16 +276,6 @@ public class OCCMillennialMedia {
 
 		adView.setLayoutParams(layoutParams);
 
-    }
-
-    //if have enought space change the size
-    protected boolean canFit(int adWidth)
-    {   
-
-        int adWidthPx = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, adWidth, mActivity.getResources().getDisplayMetrics());
-        DisplayMetrics metrics = mActivity.getResources().getDisplayMetrics();
-
-        return metrics.widthPixels >= adWidthPx;
     }
 
     //Show or Hide the adView
