@@ -124,6 +124,17 @@ You can change a banner position with:
 For the first value (`CENTER`) is available `LEFT`, `CENTER`, `RIGHT`<br/>
 For the second value (`MIDDLE`) is available `BOTTOM`, `MIDDLE`, `TOP`
 <br/>
+You can also change a banner type, for do that in the line 
+
+	advMedia.init("YOUR-MILLENIAL-MEDIA-APP-ID",TYPE_SMALL_BANNER);
+	
+change a `TYPE_SMALL_BANNER` with one of that:
+
+    TYPE_LEADERBOARD            = 728x90;
+    TYPE_SMALL_BANNER         	= 320x50;
+    TYPE_MEDIUM_BANNER       	= 480x60;    
+    TYPE_RECTANGLE_BANNER       = 300x250;    
+
 
 ### HIDE AND SHOW BANNER
 
