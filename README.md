@@ -40,7 +40,7 @@ Click `Browse` and search your cocos2dx project folder, select them and click on
 Now right click on the opened project and click `Properties`, select `Java Build Path`, and click `Add External JARs`, 
 and select the `MMSDK.jar` copied before in libs folder 
 
-Save and close Eclipse
+Save and close Eclipse ( Clean Project if necessary )
 
 Now you have setup all for start coding and integrate the millenial media ADV in your project.
 
